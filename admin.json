@@ -1,1 +1,23 @@
-
+{
+  "name":        "elvis/usps-php-api",
+  "type":        "library",
+  "description": "PHP wrapper for USPS Web Tools API",
+  "keywords":    ["usps", "api"],
+  "license":     "MIT",
+  "authors":     [
+    {
+      "name":     "Elvis Mudanya",
+      "homepage": "https://github.com/e-lv-o",
+      "role":     "Developer"
+    },
+  ],
+  "require":     {
+    "php":      ">=5.4",
+    "ext-curl": "*"
+  },
+  "autoload":    {
+    "psr-4": {
+      "USPS\\": "src/"
+    }
+  }
+}
